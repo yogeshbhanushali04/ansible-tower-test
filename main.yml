@@ -1,0 +1,11 @@
+---
+# tasks file for hygieia
+
+  - name: run api jar
+    hosts: all 
+    tasks:
+    shell: |
+    echo "Hello world"
+    date
+    id 
+    echo "EOF"
