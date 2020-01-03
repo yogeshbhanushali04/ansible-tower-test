@@ -6,6 +6,3 @@
     tasks:
     shell: |
     echo "Hello world"
-    date
-    id 
-    echo "EOF"
