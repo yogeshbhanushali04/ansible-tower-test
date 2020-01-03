@@ -5,8 +5,4 @@
     hosts: 
     tasks:
       - name: just a sample hello world 
-        shell: |
-        echo "Hello world";
-        date
-        id 
-        echo "EOF"
+        command: echo "Hello world"
