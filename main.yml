@@ -5,4 +5,6 @@
     hosts: all
     tasks:
       - name: just a sample hello world 
-        command: echo "Hello world"; date; id
+        command: echo "Hello world"; 
+        command: date;
+        command: id
