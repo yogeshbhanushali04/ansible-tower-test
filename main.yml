@@ -2,7 +2,7 @@
 # tasks file for hygieia
 
   - name: run api jar
-    hosts: All
+    hosts: all
     tasks:
       - name: just a sample hello world 
         command: echo "Hello world"
