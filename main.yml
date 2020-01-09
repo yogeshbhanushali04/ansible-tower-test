@@ -5,6 +5,4 @@
     hosts: all
     tasks:
       - name: just a sample hello world 
-        command: echo "Hello world"; 
-        command: date;
-        command: hostname -i
+        command: hostname -f
